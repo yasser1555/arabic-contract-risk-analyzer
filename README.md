@@ -2,55 +2,51 @@
 
 **Arabic NLP · LegalTech · Machine Learning · Document Intelligence**
 
-An academic research prototype designed to analyze Saudi Arabic contracts, extract relevant clauses, and highlight provisions that may require further legal review.
+**Status:** Advanced Functional Prototype — Active Development
 
-**Status:** Functional Prototype — Research & Validation in Progress  
-**Source Code:** Private / Not Included
+## Overview
 
-## Project Overview
+Arabic Contract & Risk Analyzer is an academic research project focused on making Saudi Arabic contracts easier to understand and review through natural language processing and document intelligence.
 
-The project aims to make lengthy Arabic contracts easier to review by combining document processing, Arabic NLP, and explainable rule-based risk screening.
+The system is designed to extract contractual text, identify potentially sensitive clauses, and generate explainable risk indicators supported by the original contract text and page references.
 
-Rather than assigning a single risk score to an entire document, the prototype evaluates candidate clauses and presents relevant source text, page references, preliminary risk categories, and explanatory notes.
+## Project Capabilities
 
-## Implemented Work
+The documented prototype includes:
 
-- Arabic PDF and DOCX text extraction, including OCR support.
-- Arabic text preprocessing and clause-candidate segmentation.
-- Preliminary risk rules covering penalties, termination, liabilities, and contractual obligations.
-- Streamlit-based prototype with explainable Arabic reports.
-- Export options for HTML, JSON, and CSV.
-- Exploratory machine-learning baselines using TF-IDF and classical classifiers.
+- Arabic PDF and DOCX text extraction.
+- Arabic OCR support for scanned or difficult-to-read documents.
+- Text preprocessing and clause-level analysis.
+- Rule-based detection of contractual obligations, penalties, termination clauses, and other potential risk areas.
+- Preliminary machine-learning classification experiments.
+- A Streamlit-based user interface.
+- Explainable Arabic reports with source references and export functionality.
 
-The latest project summary reports a collection of 14 Saudi Arabic contracts. An earlier documented data audit covered 12 PDF templates totaling 496 pages.
+## Development & Research
 
-## Preliminary Research Results
+The project has progressed through document collection, preprocessing, prototype development, experimentation, and iterative improvements.
 
-An initial experiment using 30 weakly labeled examples reported:
+The team is continuing to refine the analysis pipeline, improve classification quality, and evaluate the system using more reliable contract annotations.
 
-| Metric | Result |
-|---|---|
-| Accuracy | 70% |
-| Macro-F1 | 0.479 |
-| HIGH Risk Recall | 0/3 |
+Updated performance metrics will be documented after verification of the latest experiments.
 
-These results are exploratory and do not establish reliable legal-risk classification. Independent expert-reviewed labels and stronger testing are still required.
+## Academic Team & Contributions
 
-## Current Research Focus
+This project is formally organized as a three-member academic team project at Effat University.
 
-Improving annotation quality, preserving complete clause context, reducing data leakage between similar contract templates, and evaluating risk detection on independently reviewed documents.
+The main active development has been undertaken by **Yasser Alassad and one teammate**, with Yasser contributing substantially to the research and technical development.
 
-## Academic Contribution
+Individual contributions will be documented more specifically as the project is finalized.
 
-This is a three-member university project. Active development has been carried out primarily by Yasser Alassad and one teammate, with Yasser contributing substantially to the project.
+## Important Note
 
-Specific implementation contributions can be documented as they are confirmed.
+The system provides research-oriented risk indicators and explanations. It is not a substitute for professional legal advice.
 
-## Disclaimer
+## Project Availability
 
-This is a research-support prototype, not a legal advisory service. Preliminary risk indicators should not replace professional legal review.
+This repository documents the project and its development. Source code is not included in this public showcase.
 
-## Developer
+## Portfolio Contact
 
 **Yasser Alassad**  
 Computer Science — Artificial Intelligence Specialization  
